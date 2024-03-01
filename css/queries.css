@@ -1,0 +1,156 @@
+/* max-width: 1366px */
+@media (max-width: 90em) {
+  .container {
+    width: 120rem;
+  }
+
+  /* navigation */
+  .nav-items-list {
+    font-size: 1.8rem;
+    /**************************/
+  }
+  .hero-text-box {
+    padding: 6.4rem 4.8rem 6.4rem 4.8rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+  }
+
+  /******************************/
+  /*--- DESCRIPTION SECTION --- */
+  /******************************/
+
+  .tertiary-heading {
+    font-size: 2.8rem;
+  }
+
+  .descriptions {
+    padding: 6.4rem 4.8rem;
+  }
+
+  .desc-main-text {
+    font-size: 2.8rem;
+  }
+
+  .desc-text {
+    font-size: 2.4rem;
+  }
+
+  /***************************/
+  /*--- FEATURES SECTION --- */
+  /***************************/
+
+  .feature-text {
+    font-size: 3.2rem;
+    font-weight: 700;
+    width: 75%;
+  }
+
+  .feature-img-box {
+    width: 100%;
+  }
+
+  .feature-img {
+    width: 100%;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+
+  /*******************************/
+  /*--- ALL FEATURES SECTION --- */
+  /*******************************/
+
+  .all-features.container {
+    width: 120rem;
+  }
+
+  .all-feature-text {
+    margin-bottom: auto;
+  }
+
+  /************************/
+  /*--- STEPS SECTION --- */
+  /************************/
+
+  .step-heading {
+    font-size: 3.6rem;
+  }
+
+  .step-description {
+    font-size: 2.4rem;
+  }
+
+  /**********************/
+  /*--- CTA SECTION --- */
+  /**********************/
+
+  .form form {
+    font-size: 1.8rem;
+  }
+
+  .field input,
+  .field select {
+    padding: 1.5rem 1rem 1.5rem 0;
+  }
+}
+
+@media (max-width: 66em) {
+  .container {
+    width: 120rem;
+  }
+
+  .grid-2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .descriptions {
+    /* padding: 9.6rem 6.4rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .desc-text-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2.4rem;
+    width: 75%;
+  }
+
+  /************************/
+  /*--- PLANS SECTION --- */
+  /************************/
+
+  .plan-accordions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+    transition: 0.3s;
+  }
+}
