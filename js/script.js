@@ -18,33 +18,23 @@ const acc = document.getElementsByClassName("accordion");
 let i;
 
 // sticky navigation
-const obsCallback = function (entries, observer) {
-  entries.forEach(entry => {
-    console.log(entry);
-  });
-};
 
-const obsOptions = {
-  root: null,
-  threshold: [0, 0.2],
-};
-
-const observer = new IntersectionObserver(obsCallback, obsOptions);
-observer.observe(section1);
 
 const navHeight = fullNavigation.getBoundingClientRect().height;
 const stickyNav = function (entries) {
   const [entry] = entries;
 
+
   if (!entry.isIntersecting) {
     fullNavigation.classList.add("sticky");
+
    
   } else fullNavigation.classList.remove("sticky");
 };
 
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
-  threshold: 0,
+  threshold: 0.1,
   rootMargin: `-${navHeight}px`,
 });
 
