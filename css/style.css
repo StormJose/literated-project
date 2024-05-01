@@ -18,6 +18,7 @@
 .navigation {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
+  align-items: center;
   padding: 4.8rem 3.2rem 0 3.2rem;
   opacity: 90%;
 }
